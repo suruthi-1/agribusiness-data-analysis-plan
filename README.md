@@ -7,6 +7,12 @@ data to forecast agriculture market trends.
 - `agribusiness_data_analysis_plan.Rmd`: R Markdown source of the report
 - `agribusiness_data_analysis_plan.docx`: knitted Word report (submitted file)
 
+ ## Screenshot
+
+![RStudio workspace](workflow.png)
+Fig: Project running in RStudio on Posit Cloud, showing the Rmd file, data objects and knitted
+output
+
 ## What the plan covers
 - Research rationale and objectives
 - Public data sources (FAOSTAT, DES India, Agmarknet, USDA, World Bank, IMD, NASA POWER)
@@ -43,6 +49,3 @@ clean the data to start the analysis phase.
 1. Open the `.Rmd` file in RStudio or Posit Cloud.
 2. Install packages: `install.packages(c("rmarkdown", "knitr", "ggplot2"))`
 3. Click **Knit to Word**.
-
-## Author
-Suruthi D
